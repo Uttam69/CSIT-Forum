@@ -1,9 +1,9 @@
 const person = {
-  name: "aayush",
-  age: 22,
+  name: "uttam",
+  age: 25,
 };
 person.name = "sita";
 const addNewProperties = () => {
-  return [...person, age : person.age + 22];
+  return [...person, age, person.age + 25];
 };
 console.log(person);
